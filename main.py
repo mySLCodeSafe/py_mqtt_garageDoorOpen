@@ -18,7 +18,7 @@ client = mqtt.Client("python1")
 client.on_connect = on_connect
 client.on_message = on_message
 client.tls_set()
-client.username_pw_set(username="jackANDj1ll", password="pangaeaQWSA1")
+client.username_pw_set(username="", password="")
 
 print("started...")
 client.connect("d45fff2751494701a6007b82c596c0bc.s1.eu.hivemq.cloud", 8883, 60)
